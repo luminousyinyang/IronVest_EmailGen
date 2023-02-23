@@ -70,7 +70,7 @@ func main() {
 		}
 		fmt.Println(string(body))
 	} else {
-		// to avoid a rate limit it provides space a "buffer" between requests
+		// to avoid a rate limit it provides a "buffer" between requests
 		fmt.Println("sleeping until next request in 60s")
 		time.Sleep(60 * time.Second)
 	}
